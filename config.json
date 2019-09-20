@@ -1,0 +1,28 @@
+{
+  "redirect": "",
+  "obfs_param": "",
+  "protocol": "origin",
+  "obfs": "plain",
+  "local_port": 8080,
+  "workers": 10,
+  "fast_open": false,
+  "server": "0.0.0.0",
+  "port_password": {
+    "8080": {
+      "ips": {
+        "mobile": [
+          "128.0.0.0/1",
+          "0.0.0.0/1"
+        ]
+      },
+      "password": "free",
+      "user": "free"
+    }
+  },
+  "protocol_param": "",
+  "timeout": 300,
+  "local_address": "127.0.0.1",
+  "dns_ipv6": false,
+  "server_ipv6": "[::]",
+  "method": "chacha20"
+}
